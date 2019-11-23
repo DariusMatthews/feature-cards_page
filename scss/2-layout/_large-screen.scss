@@ -1,0 +1,8 @@
+// media query for desktop screen size 375px
+
+@media only screen and (min-width: $desktop-width) {
+  .container {
+    width: 75%;
+    margin: auto;
+  }
+}
