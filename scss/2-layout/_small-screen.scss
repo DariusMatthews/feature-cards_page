@@ -1,8 +1,20 @@
 // media query for mobile screen size layout 375px
 
 @media only screen and (min-width: $mobile-width) {
+
   .container {
     width: 85%;
     margin: auto;
+
+    .grid-container {
+      display: grid;
+      justify-items: center;
+      row-gap: 1.7rem;
+
+      .mg-bottom {
+        margin-bottom: 5rem;
+      }
+    }
   }
+
 }

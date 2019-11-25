@@ -5,10 +5,11 @@ $mobile-width: 375px;
 $desktop-width: 1440px;
 
 // CARD COLORS 
-$cyan: hsl(0, 78%, 62%);
+$cyan: hsl(180, 62%, 55%);
 $red: hsl(0, 78%, 62%);
 $orange: hsl(34, 97%, 64%);
 $blue: hsl(212, 86%, 64%);
+$blue-fade: hsla(212, 86%, 64%, 0.2);
 
 // TEXT COLORS 
 $dark-blue: hsl(234, 12%, 34%);

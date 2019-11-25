@@ -1,0 +1,46 @@
+//Card Block Styles
+
+.card {
+  width: 20.5rem;
+  height: 14.7rem;
+  box-shadow: 0 15px 10px $blue-fade;
+  border-radius: 8px;
+  padding: 1.35rem;
+  display: flex;
+  flex-direction: column;
+
+  &--cyan {
+    border-top: solid 5px $cyan;
+  }
+
+  &--red {
+    border-top: solid 5px $red;
+  }
+
+  &--orange {
+    border-top: solid 5px $orange;
+  }
+
+  &--blue {
+    border-top: solid 5px $blue;
+  }
+
+  &__title {
+    color: $dark-blue;
+    margin-bottom: .3rem;
+  }
+
+  &__content {
+    color: $grey-blue;
+    line-height: 1.7rem;
+    padding-bottom: 2rem;
+  }
+
+  &__img-container {
+    align-self: flex-end;
+  }
+
+  &__img {
+    width: 85%;
+  }
+}
