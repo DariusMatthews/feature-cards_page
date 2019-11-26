@@ -2,7 +2,7 @@
 
 @media only screen and (min-width: $desktop-width) {
   .container {
-    width: 75%;
+    min-width: 95%;
     margin: auto;
   }
 
@@ -22,6 +22,7 @@
       grid-column: 3 / 4;
       grid-row: span 2;
       align-self: center;
+      margin-right: auto;
     }
 
     &--3 {
@@ -32,10 +33,17 @@
     &--4 {
       grid-row: span 2;
       align-self: center;
+      margin-left: auto;
     }
 
     &--blue {
       margin-bottom: 0 !important;
     }
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .grid-container {
+    column-gap: 0;
   }
 }
