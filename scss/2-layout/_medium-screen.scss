@@ -1,0 +1,19 @@
+// media query for tablet screen size layout 375px
+
+@media only screen and (min-width: $tablet-width) {
+
+  .header {
+    &__title {
+      font-size: 2.3rem !important;
+    }
+
+    &__content {
+      width: 510px;
+      margin: 0 auto;
+    }
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
